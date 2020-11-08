@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header class="navigation">
+      <nav>
+        <a class="navigation__link" href="index.html">Strona główna</a>
+        <a class="navigation__link" href="tydzien1.html">Tydzień 1</a>
+        <a class="navigation__link" href="tydzien2.html">Tydzień 2</a>
+        <a class="navigation__link" href="tydzien3.html">Tydzień 3</a>
+        <a class="navigation__link" href="tydzien4.html">Tydzień 4</a>
+        <a class="navigation__link" href="tydzien5.html">Tydzień 5</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2 class="weekTitle">Tydzień 3</h2>
+        <article>
+          <h3 class="topicTitle">Kanban</h3>
+          <p>Do planowania projektów sprawdza się appka Trello</p>
+
+          <h3 class="topicTitle">HTML</h3>
+          <p>
+            <b>Różnica między [b] & [i] a [strong] & [em]</b> <br />- [b] & [i]
+            - nie mają znaczenia semantycznego, ale chcemy, żeby tekst się
+            wyróżniał <br />- [strong] & [em] - strong podkreśla istotność i
+            poważność frazy, em podkreśla wypowiedź, np. ironia <br />- zaleca
+            się używanie [strong] & [em]
+          </p>
+          <p>Selektor class - grupuje elementy</p>
+          <p>
+            Atrybut id - identyfikuje element (przydaje się do nawigacji
+            wewnątrz strony)
+          </p>
+          <p>
+            img src <b>alt</b> -alt jest używane do np. czytników kodów, lub dla
+            osób niewidomych, aby wiedzieli co jest na obrazku. Bardzo ważne w
+            nowoczesnym budowaniu strony. Jeżeli zdjecie jest tylko dekoracją,
+            to alt może być pusty.
+          </p>
+          <p>
+            Jeśli tworzymy podstrony to wszystkie powtarzalne treści wrzucamy do
+            oddzielnego headera
+          </p>
+
+          <h3>Odpowiednie nazewnictwo - różne style</h3>
+          <p>
+            - camelCase<br />
+            - kebab-case<br />
+            - snake_case<br />
+            - PascalCase
+          </p>
+
+          <h3 class="topicTitle">CSS</h3>
+          <p>
+            Hierarchia specyficznosci: <br />
+            I !important <br />
+            II style="" - styl liniowy <br />
+            III #name - ID<br />
+            IV .name - klasa<br />
+            V element
+          </p>
+          Żeby nie bawić się w specyficznośc, zaleca się dodawanie klasy do
+          wszystkich elementów i unikać zagnieżdżeń
+
+          <h3>Jak działa przeglądarka? Kody odpowiedzi HTTP</h3>
+          <p>
+            100 - poczekaj<br />
+            200 - wszystko jest OK<br />
+            30x - 'szukasz w złym miejscu', przekierowania, przekierowujemy Cię
+            w odpowiednie miejsce<br />
+            404 - brak zasobu, nie ma tego czego szukasz<br />
+            50x - wewnętrzny błąd serwera. Jako frontendowcy nie mamy wpływu
+          </p>
+
+          <h3 class="topicTitle">JavaScript</h3>
+          <p>Będziemy uczyć się ECMA script 2015+ (ES6)</p>
+          <h4>Składowe w JS:</h4>
+          <ul>
+            <li>Wartości - są to rzeczy, które już istnieją</li>
+            <li>Operacje porównywania</li>
+            <li>Zmienne</li>
+            <li>Literały</li>
+            <li>Funkcje</li>
+            <li>Obiekty</li>
+          </ul>
+          <p>Zmienne w JS: <strong> const</strong> i <strong>let</strong></p>
+          <p>
+            <strong>const</strong>- rzeczy mające stałą strukturę, nie można ich
+            podmienić
+          </p>
+          <p>
+            <strong>let</strong>- rzeczy, które można przypisać wielokrotnie,
+            ale definiujemy tylko raz
+          </p>
+          <p>
+            <strong>${nazwaZmiennej}</strong> - zwraca zadeklarowaną zmienną
+          </p>
+          <p>prawie wszystko w JS jest obiektem - tak się zachowują typy</p>
+          <h4>Typy proste w JS (primitives):</h4>
+          <ul>
+            <li>String - tekst, otaczamy apostrofem '</li>
+            <li>Number - liczba</li>
+            <li>Bigint - liczba większa niż 2<sup>53</sup></li>
+            <li>Boolean - true lub false</li>
+            <li>null - wartość celowo niezidentyfikowana</li>
+            <li>undefined - brak definicji (błąd)</li>
+            <li>
+              *symbol - tworzy "unikalne opakowanie". Drugi taki nie wystąpi
+            </li>
+          </ul>
+
+          <img src="images/html-css-js.png" alt="Logo HTML, CSS i JS" />
+
+          <h3 class="topicTitle">Terminal</h3>
+          <p>Polecenia w Windows</p>
+          <ul>
+            <li>dir - wypisuje listę plików i folderów</li>
+            <li>cd 'nazwa' - otwiera dany katalog</li>
+            <li>mkdir 'nazwa' - tworzy folder</li>
+            <li>
+              'code .' - uruchamia Visual Studio Code będąc w danym folderze
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+
+    <footer>Copyright Rafał Kamiński - Wszelkie prawa zastrzeżone xD</footer>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+body {
+    background: #fefefe;
+}
+
+.mainTitle{
+    color: tomato;
+}
+
+.weekTitle {
+    color: #1460AA;
+    text-align: center;
+}
+
+.topicTitle {
+    color:#0496ff;
+}
